@@ -1,0 +1,13 @@
+.model_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#model {
+    display: block;
+    width: 100%;
+    height: 80vh;
+    /* overflow: hidden; */
+    /* border: 1px solid black; */
+    margin: 16px;
+}
