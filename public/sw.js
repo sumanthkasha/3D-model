@@ -1,16 +1,11 @@
 var CACHE_STATIC_NAME = "static-v23";
 var CACHE_DYNAMIC_NAME = "dynamic-v3";
 var STATIC_FILES = [
-  // "/",
   "/index.html",
   "/src/css/model.css",
   "/src/js/app.js",
   "/src/css/app.css",
-  // "/src/models/",
   "/src/js/model.js",
-  // "https://fonts.googleapis.com/css?family=Roboto:400,700",
-  // "https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
-  // "https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/",
 ];
 
 /*
