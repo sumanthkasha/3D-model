@@ -6,7 +6,8 @@
   "scripts": {
     "start": "http-server -c-1",
     "pm2-start": "pm2 start node_modules/http-server/bin/http-server --name pwa-server -- -c -1",
-    "pm2-stop": "pm2 stop pwa-server"
+    "pm2-stop": "pm2 stop pwa-server",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "keywords": [
     "pwa",
@@ -17,7 +18,14 @@
     "tutorial"
   ],
   "author": "",
-  "license": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumanthkasha/3D-model"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "http-server": "^0.10.0"
   }
